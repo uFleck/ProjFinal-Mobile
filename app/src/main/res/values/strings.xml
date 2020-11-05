@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Piggy Bank</string>
+    <string name="buttonLogin">login</string>
+    <string name="buttonRegister">register</string>
+    <string name="title_activity_splash" translatable="false">FullscreenActivity</string>
+
+    <string name="icon_description" translatable="false">Golden coin</string>
+    <string name="piggy_description" translatable="false">Piggy bank</string>
+
+    <string name="title_activity_fullscreen" translatable="false">FullscreenActivity</string>
+    <string name="dummy_button" translatable="false">Dummy Button</string>
+    <string name="dummy_content" translatable="false">DUMMY\nCONTENT</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="email">Type your email</string>
+    <string name="password">Type your password</string>
+    <string name="password_again">Type your password again</string>
+
+    <string name="add_hint">Type how much you want to add</string>
+    <string name="remove_hint">Type how much you want to remove</string>
+    <string name="back">Back</string>
+    <string name="add">Add</string>
+    <string name="remove">Remove</string>
+    <string name="title_activity_main2" translatable="false">MainActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label" translatable="false">First Fragment</string>
+    <string name="second_fragment_label" translatable="false">Second Fragment</string>
+    <string name="next" translatable="false">Next</string>
+    <string name="previous" translatable="false">Previous</string>
+
+    <string name="hello_first_fragment" translatable="false">Hello first fragment</string>
+    <string name="hello_second_fragment" translatable="false">Hello second fragment. Arg: %1$s</string>
+
+    <!-- Menu Drawer -->
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+
+
+    <string name="email_luiz"> Name: Luiz Souza Email: lgu1244@gmail.com</string>
+    <string name="email_bruno">Name: Bruno Koster Email: bruno10762@gmail.com</string>
+    <string name="about">About</string>
+    <string name="logout">Logout</string>
+    <string name="backAbout">Back</string>
+    <string name="registerButton">Register</string>
+    <string name="registerText">Register</string>
+    <string name="loginButton">Login</string>
+    <string name="loginText">Login</string>
+    <string name="appObjective">The purpose of this app is to help you count how much money you have in the piggy bank.</string>
+
+
+</resources>

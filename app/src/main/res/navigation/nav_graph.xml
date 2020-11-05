@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/bankFragment">
+
+    <fragment
+        android:id="@+id/bankFragment"
+        android:name="bruno.koster.myeleventhapp.fragments.BankFragment"
+        android:label="fragment_bank"
+        tools:layout="@layout/fragment_bank">
+        <action
+            android:id="@+id/action_bankFragment_to_addFragment"
+            app:destination="@id/addFragment" />
+        <action
+            android:id="@+id/action_bankFragment_to_mainActivity"
+            app:destination="@id/mainActivity" />
+        <action
+            android:id="@+id/action_bankFragment_to_aboutFragment"
+            app:destination="@id/aboutFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/addFragment"
+        android:name="bruno.koster.myeleventhapp.fragments.AddFragment"
+        android:label="fragment_add"
+        tools:layout="@layout/fragment_add" >
+        <action
+            android:id="@+id/action_addFragment_to_bankFragment"
+            app:destination="@id/bankFragment" />
+    </fragment>
+
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="bruno.koster.myeleventhapp.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="bruno.koster.myeleventhapp.fragments.AboutFragment"
+        android:label="fragment_about"
+        tools:layout="@layout/fragment_about" >
+        <action
+            android:id="@+id/action_aboutFragment_to_bankFragment"
+            app:destination="@id/bankFragment" />
+    </fragment>
+
+</navigation>

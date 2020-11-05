@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Piggy Bank</string>
+    <string name="buttonLogin">Logar</string>
+    <string name="buttonRegister">Registrar</string>
+    <string name="email">Digite seu email</string>
+    <string name="password">Digite sua senha</string>
+    <string name="password_again">Digite sua senha novamente</string>
+    <string name="add_hint">Digite o quanto você deseja adicionar</string>
+    <string name="remove_hint">Digite o quanto você deseja remover</string>
+    <string name="back">Voltar</string>
+    <string name="add">Adicionar</string>
+    <string name="remove">Remover</string>
+    <string name="about">Sobre</string>
+    <string name="logout">Sair</string>
+    <string name="backAbout">Voltar</string>
+    <string name="registerButton">Registrar</string>
+    <string name="registerText">Registrar</string>
+    <string name="loginButton">Logar</string>
+    <string name="loginText">Logar</string>
+    <string name="appObjective">O objetivo deste aplicativo é ajudá-lo a contar quanto dinheiro você tem no cofrinho.</string>
+    <string name="email_luiz"> Nome: Luiz Souza Email: lgu1244@gmail.com</string>
+    <string name="email_bruno">Nome: Bruno Koster Email: bruno10762@gmail.com</string>
+</resources>
